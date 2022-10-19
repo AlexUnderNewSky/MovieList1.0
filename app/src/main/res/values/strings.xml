@@ -3,4 +3,6 @@
     <string name="poster_of_movie">Poster of movie</string>
     <string name="most_popular">Most popular</string>
     <string name="top_rated">Top Rated</string>
+    <string name="add_to_favorite">Add to favorite</string>
+    <string name="remove_from_favorite">Delete from favorite</string>
 </resources>
