@@ -5,4 +5,6 @@
     <string name="top_rated">Top Rated</string>
     <string name="add_to_favorite">Add to favorite</string>
     <string name="remove_from_favorite">Delete from favorite</string>
+    <string name="item_main">Main</string>
+    <string name="item_favorite">Favorite</string>
 </resources>
