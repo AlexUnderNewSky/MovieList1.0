@@ -7,4 +7,5 @@
     <string name="remove_from_favorite">Delete from favorite</string>
     <string name="item_main">Main</string>
     <string name="item_favorite">Favorite</string>
+    <string name="launch_trailer">Play trailer</string>
 </resources>

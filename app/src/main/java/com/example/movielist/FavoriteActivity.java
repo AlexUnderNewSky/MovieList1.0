@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import java.util.ArrayList;
 import java.util.List;
 
+import adapters.MovieAdapter;
 import data.FavoriteMovie;
 import data.MainViewModel;
 import data.Movie;
