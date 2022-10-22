@@ -24,6 +24,7 @@
             android:id="@+id/textViewLabelTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="Name: "
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewAddToFavorite" />
@@ -32,6 +33,7 @@
             android:id="@+id/guidelineCenter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.5" />
 
@@ -39,6 +41,7 @@
             android:id="@+id/textViewTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guidelineCenter"
@@ -48,6 +51,7 @@
             android:id="@+id/textViewLabelOriginalTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="Original name: "
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
@@ -56,6 +60,7 @@
             android:id="@+id/textViewOriginalTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guidelineCenter"
@@ -65,6 +70,7 @@
             android:id="@+id/textViewLabelRating"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="Rating: "
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewOriginalTitle" />
@@ -73,6 +79,7 @@
             android:id="@+id/textViewRating"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="TextView"
             app:layout_constraintStart_toStartOf="@+id/guidelineCenter"
             app:layout_constraintTop_toBottomOf="@+id/textViewOriginalTitle" />
@@ -81,6 +88,7 @@
             android:id="@+id/textViewLabelReleaseDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="Release Date: "
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewRating" />
@@ -89,6 +97,7 @@
             android:id="@+id/textViewReleaseDate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="TextView"
             app:layout_constraintStart_toStartOf="@+id/guidelineCenter"
             app:layout_constraintTop_toBottomOf="@+id/textViewRating" />
@@ -97,6 +106,7 @@
             android:id="@+id/textViewLabelDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="Overview: "
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewReleaseDate" />
@@ -105,6 +115,7 @@
             android:id="@+id/textViewOverview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="TextView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewLabelDescription" />
