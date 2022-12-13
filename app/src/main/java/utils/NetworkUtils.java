@@ -21,7 +21,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.channels.AsynchronousChannelGroup;
 import java.util.concurrent.ExecutionException;
-
+// Сергий Сосницки 2001321097
 public class NetworkUtils {
     private static final String BASE_URL = "https://api.themoviedb.org/3/discover/movie";
     private static final String BASE_URL_VIDEOS = "https://api.themoviedb.org/3/movie/%s/videos";

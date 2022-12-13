@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import data.Movie;
 import data.Review;
 import data.Trailer;
-
+// Сергий Сосницки 2001321097
 public class JSONUtils {
 
     private static final String KEY_RESULTS = "results";
